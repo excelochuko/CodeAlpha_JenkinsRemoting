@@ -1,0 +1,24 @@
+Started by user Aruesiri Excel Ogheneochuko
+Running as SYSTEM
+Building remotely on linux-agent-2 in workspace /home/jenkins/agent/workspace/AMD64-Agent-2-Test
+[AMD64-Agent-2-Test] $ /bin/sh -xe /tmp/jenkins8180951337221915921.sh
++ echo CODEALPHA PROJECT 2 - DISTRIBUTED BUILD TEST
+CODEALPHA PROJECT 2 - DISTRIBUTED BUILD TEST
++ echo Agent:
+Agent:
++ hostname
+5b4f05eda280
++ echo Architecture:
+Architecture:
++ uname -m
+x86_64
++ echo Execution user:
+Execution user:
++ whoami
+jenkins
++ echo Starting workload...
+Starting workload...
++ sleep 30
++ echo Agent 2 workload completed successfully!
+Agent 2 workload completed successfully!
+Finished: SUCCESS

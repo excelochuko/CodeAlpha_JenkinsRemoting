@@ -1,0 +1,37 @@
+Started by user Aruesiri Excel Ogheneochuko
+Running as SYSTEM
+Building remotely on arm-agent-1 (arm64) in workspace /home/jenkins/agent/workspace/ARM64-Agent-Test
+[ARM64-Agent-Test] $ /bin/sh -xe /tmp/jenkins15740344736767049888.sh
++ echo ================================
+================================
++ echo CODEALPHA PROJECT 2
+CODEALPHA PROJECT 2
++ echo ARM64 REMOTE AGENT TEST
+ARM64 REMOTE AGENT TEST
++ echo ================================
+================================
++ echo Hostname:
+Hostname:
++ hostname
+dd2395bb8b0c
++ echo Architecture:
+Architecture:
++ uname -m
+aarch64
++ echo Operating System:
+Operating System:
++ uname -a
+Linux dd2395bb8b0c 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 aarch64 GNU/Linux
++ echo Current User:
+Current User:
++ whoami
+jenkins
++ echo Java Version:
+Java Version:
++ java -version
+openjdk version "21.0.13" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode)
++ echo ARM64 Remote Agent Execution Successful!
+ARM64 Remote Agent Execution Successful!
+Finished: SUCCESS

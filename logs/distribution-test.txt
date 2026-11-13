@@ -1,0 +1,36 @@
+Started by user Aruesiri Excel Ogheneochuko
+Running as SYSTEM
+Building remotely on linux-agent-2 in workspace /home/jenkins/agent/workspace/Remote-Agent-Distribution-Test
+[Remote-Agent-Distribution-Test] $ /bin/sh -xe /tmp/jenkins12637934603019495516.sh
++ echo ==================================
+==================================
++ echo JENKINS DISTRIBUTED BUILD TEST
+JENKINS DISTRIBUTED BUILD TEST
++ echo ==================================
+==================================
++ echo Agent hostname:
+Agent hostname:
++ hostname
+5b4f05eda280
++ echo Agent operating system:
+Agent operating system:
++ uname -a
+Linux 5b4f05eda280 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux
++ echo Current user:
+Current user:
++ whoami
+jenkins
++ echo Workspace:
+Workspace:
++ pwd
+/home/jenkins/agent/workspace/Remote-Agent-Distribution-Test
++ echo Build number: 4
+Build number: 4
++ echo Executor: 1
+Executor: 1
++ echo Keeping build active for 20 seconds...
+Keeping build active for 20 seconds...
++ sleep 20
++ echo Distributed build completed successfully!
+Distributed build completed successfully!
+Finished: SUCCESS

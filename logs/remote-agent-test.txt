@@ -1,0 +1,70 @@
+Started by user Aruesiri Excel Ogheneochuko
+Running as SYSTEM
+Building remotely on linux-agent-1 (linux-agent) in workspace /home/jenkins/agent/workspace/Remote-Agent-Test
+[Remote-Agent-Test] $ /bin/sh -xe /tmp/jenkins1500903464244052870.sh
++ echo ================================
+================================
++ echo CODEALPHA PROJECT 2
+CODEALPHA PROJECT 2
++ echo JENKINS REMOTE AGENT TEST
+JENKINS REMOTE AGENT TEST
++ echo ================================
+================================
++ echo Hostname:
+Hostname:
++ hostname
+4ce0bc0cefb5
++ echo Operating System:
+Operating System:
++ uname -a
+Linux 4ce0bc0cefb5 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux
++ echo Current User:
+Current User:
++ whoami
+jenkins
++ echo Working Directory:
+Working Directory:
++ pwd
+/home/jenkins/agent/workspace/Remote-Agent-Test
++ echo Java Version:
+Java Version:
++ java -version
+openjdk version "21.0.13" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode)
++ echo Remote Agent Execution Successful!
+Remote Agent Execution Successful!
+[Remote-Agent-Test] $ /bin/sh -xe /tmp/jenkins17947144264083128551.sh
++ echo ================================
+================================
++ echo CODEALPHA PROJECT 2
+CODEALPHA PROJECT 2
++ echo JENKINS REMOTE AGENT TEST
+JENKINS REMOTE AGENT TEST
++ echo ================================
+================================
++ echo Hostname:
+Hostname:
++ hostname
+4ce0bc0cefb5
++ echo Operating System:
+Operating System:
++ uname -a
+Linux 4ce0bc0cefb5 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux
++ echo Current User:
+Current User:
++ whoami
+jenkins
++ echo Working Directory:
+Working Directory:
++ pwd
+/home/jenkins/agent/workspace/Remote-Agent-Test
++ echo Java Version:
+Java Version:
++ java -version
+openjdk version "21.0.13" 2026-10-20 LTS
+OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)
+OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode)
++ echo Remote Agent Execution Successful!
+Remote Agent Execution Successful!
+Finished: SUCCESS
